@@ -60,12 +60,9 @@ SECTIONS OF WEBSITE
 
 -   Directors: list of the directors of the organization.
     
-    > Douglas Forsberg
-    > > Short Bio? Picture?
-    > Devonna Forsberg
-    > > Short Bio? Picture?
-    > Bryan Willard
-    > > Short Bio? Picture?
+    - Douglas Forsberg
+    - Devonna Forsberg
+    - Bryan Willard
 
 -   Volunteers: list of organization's volunteers.
     
