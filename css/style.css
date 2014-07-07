@@ -1,0 +1,143 @@
+html {
+    background: url(../img/gplaypattern.png) fixed;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#header {
+    position: relative;
+    top: 0;
+    background-color: #333;
+    opacity: 0.85;
+    box-shadow: 0 6px #111;
+}
+
+.title {
+    width:90%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Slab';
+    font-size: 2em;
+    padding: 20px;
+}
+
+.tagline {
+    margin: 5px auto;
+    text-align: center;
+    font-family: 'Josefin Slab';
+    font-size: 1em;
+    color: white;
+    padding: 10px;
+}
+
+#logo {
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+}
+
+#logo img{
+    height: 150px;
+    width: 150px;
+}
+
+.subtitle {
+    margin: 45px auto 10px auto;
+    text-align: center;
+    font-family: 'Josefin Slab';
+    font-size: 1.75em;
+}
+
+.primary-content {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 6px #111;
+    font-family: 'Open Sans';
+    font-size: 1em;
+}
+
+.director-pic {
+    width: 128px;
+    float: left;
+    margin: 15px 15px auto 15px;
+}
+
+.director-pic img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+
+.director-name {
+    font-size: 1.2em;
+}
+
+.director-title {
+    font-size: 0.8em;
+}
+
+#contact p {
+    text-align: center;
+}
+
+@media screen and (min-width: 769px) {
+    .title {
+        font-size: 2.25em;
+    }
+    .subtitle {
+        font-size: 2em;
+    }
+    .tagline {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .primary-content {
+        width: 884px;
+        font-size: 1.15em;
+    }
+
+    .subtitle {
+        font-size: 2.25em;
+    }
+
+    .title {
+        font-size: 2.5em;
+    }
+
+    .tagline {
+        font-size: 1.5em;
+    }
+
+    #logo img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .director-pic {
+        width: 172px;
+        float: left;
+        margin: 30px 15px;
+    }
+
+    .director-pic img {
+        width: 172px;
+        height: 172px;
+        border-radius: 50%;
+    }
+}
